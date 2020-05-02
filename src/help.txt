@@ -1,0 +1,37 @@
+CREER_INDEX							CREER_INDEX
+
+NOM
+	creer_index - Creer une arborescence de fichiers a partir des options entrer par l'utilisateur.
+
+SYNOPSIS
+	creer_index [OPTION]... [MOT]...
+
+DESCRIPTION
+	creer_index permet de creer une arborescence de documents de tout types a partir d'un dossier specifique.
+	 
+
+OPTIONS
+	--help [-h]
+		afficher la page d'aide.
+		
+	--dossier
+		permet de specifier un dossier a arborer.
+	
+	--titre
+		permet de donner un titre a notre arborescence dans la page html.
+
+	--type
+		permet de referencer que les fichiers de(s) l'extension(s) souhaitee(s).
+
+	--css
+		permet de specifier un css a utiliser pour la presentation.
+	
+EXEMPLE
+	./creer_index.sh --dossier ~/Document --titre "Les cours ASR3" --type "pdf"
+	On va creer une arborescence de fichiers se trouvant dans Document et referencer que les fichiers dont l'extension est .pdf.
+
+AUTEUR
+	Ecrit par FOUCO Charles et HULIN Cedric.
+
+SIGNALER LES BOGUES
+	Signaler toute anomalie a <fc800526@etu.unice.fr> ou <hc800583@etu.unice.fr>
